@@ -2,7 +2,7 @@
 
 ###其他版本
 
-- [Php sdk]:https://github.com/eDoctor/talkmed-meeting-open-sdk
+- [php sdk](https://github.com/eDoctor/talkmed-meeting-open-sdk)
 
 ### Wiki地址
 
