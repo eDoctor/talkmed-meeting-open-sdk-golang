@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fmt"
-	"github.com/yuzihui/go-meetig-sdk/request/user"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/request/user"
 	"testing"
 )
 

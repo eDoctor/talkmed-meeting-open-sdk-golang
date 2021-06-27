@@ -3,9 +3,9 @@ package survey
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/yuzihui/go-meetig-sdk"
-	"github.com/yuzihui/go-meetig-sdk/request"
-	constants "github.com/yuzihui/go-meetig-sdk/tools/constant"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/request"
+	constants "github.com/eDoctor/talkmed-meeting-open-sdk-golang/tools/constant"
 )
 
 /**

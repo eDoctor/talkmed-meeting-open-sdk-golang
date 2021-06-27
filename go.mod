@@ -1,4 +1,4 @@
-module github.com/yuzihui/go-meetig-sdk
+module github.com/eDoctor/talkmed-meeting-open-sdk-golang
 
 go 1.16
 

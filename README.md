@@ -13,7 +13,7 @@ https://wiki.meeting.talkmed.com
 ### 安装
 
 ```
-go get github.com/yuzihui/go-meetig-sdk
+go get github.com/eDoctor/talkmed-meeting-open-sdk-golang
 ```
 
 ### 测试用例

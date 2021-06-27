@@ -3,9 +3,9 @@ package tests
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/tools"
 	"github.com/go-resty/resty/v2"
-	"github.com/yuzihui/go-meetig-sdk"
-	"github.com/yuzihui/go-meetig-sdk/tools"
 	"testing"
 	"time"
 )

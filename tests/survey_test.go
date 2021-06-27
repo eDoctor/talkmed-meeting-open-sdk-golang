@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/yuzihui/go-meetig-sdk/request/survey"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/request/survey"
 	"testing"
 )
 

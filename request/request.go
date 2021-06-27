@@ -3,8 +3,8 @@ package request
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/yuzihui/go-meetig-sdk"
-	"github.com/yuzihui/go-meetig-sdk/tools"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/tools"
 	"time"
 )
 
