@@ -1,4 +1,4 @@
-module github.com/eDoctor/meeting
+module github.com/yuzihui/go-meetig-sdk
 
 go 1.16
 

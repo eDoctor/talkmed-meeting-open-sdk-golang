@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/eDoctor/meeting/request/data"
+	"github.com/yuzihui/go-meetig-sdk/request/data"
 	"testing"
 )
 

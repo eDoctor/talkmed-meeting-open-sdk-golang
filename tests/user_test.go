@@ -2,16 +2,15 @@ package tests
 
 import (
 	"fmt"
-	"github.com/eDoctor/meeting/request/user"
+	"github.com/yuzihui/go-meetig-sdk/request/user"
 	"testing"
 )
-
 
 /**
  * @Description: 注册
  * @param t
  */
-func TestRegister(t *testing.T)  {
+func TestRegister(t *testing.T) {
 
 	client := getClient()
 	userRequest := user.NewRegisterRequest()
@@ -25,13 +24,11 @@ func TestRegister(t *testing.T)  {
 	fmt.Println(res)
 }
 
-
-
 /**
  * @Description: 登录
  * @param t
  */
-func TestLogin(t *testing.T)  {
+func TestLogin(t *testing.T) {
 
 	client := getClient()
 	userRequest := user.NewLoginRequest()
@@ -44,4 +41,3 @@ func TestLogin(t *testing.T)  {
 	res := userRequest.Request(client)
 	fmt.Println(res)
 }
-

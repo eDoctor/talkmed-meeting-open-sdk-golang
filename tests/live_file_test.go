@@ -2,7 +2,7 @@ package tests
 
 import (
 	"fmt"
-	"github.com/eDoctor/meeting/request/live_file"
+	"github.com/yuzihui/go-meetig-sdk/request/live_file"
 	"testing"
 )
 

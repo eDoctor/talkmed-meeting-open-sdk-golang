@@ -3,9 +3,9 @@ package live_file
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eDoctor/meeting"
-	"github.com/eDoctor/meeting/request"
-	constants "github.com/eDoctor/meeting/tools/constant"
+	"github.com/yuzihui/go-meetig-sdk"
+	"github.com/yuzihui/go-meetig-sdk/request"
+	constants "github.com/yuzihui/go-meetig-sdk/tools/constant"
 )
 
 type FileBindRequest struct {

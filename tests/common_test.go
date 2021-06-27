@@ -3,9 +3,9 @@ package tests
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eDoctor/meeting"
-	"github.com/eDoctor/meeting/tools"
 	"github.com/go-resty/resty/v2"
+	"github.com/yuzihui/go-meetig-sdk"
+	"github.com/yuzihui/go-meetig-sdk/tools"
 	"testing"
 	"time"
 )
