@@ -13,21 +13,22 @@ const RegisterLoginUri = "/open/register"
  * @Description:
  */
 type LoginRequest struct {
-	bRequest *request.BaseRequest
-	Type     string `json:"type,omitempty"`
-	Login    uint8  `json:"login,omitempty"`
-	Platform string `json:"platform"`
-	Nickname string `json:"nickname"`
-	Email    string `json:"email,omitempty"`
-	Mobile   string `json:"mobile,omitempty"`
-	Realname string `json:"realname,omitempty"`
-	Avatar   string `json:"avatar,omitempty"`
-	Password string `json:"password"`
-	UserRole uint8  `json:"user_role,omitempty"`
-	Openid   string `json:"openid,omitempty"`
-	Unionid  uint8  `json:"unionid,omitempty"`
-	RoomId   string `json:"room_id,omitempty"`
-	RoomRole uint8  `json:"room_role,omitempty"`
+	bRequest     *request.BaseRequest
+	Type         string `json:"type,omitempty"`
+	Login        uint8  `json:"login,omitempty"`
+	Platform     string `json:"platform"`
+	Nickname     string `json:"nickname"`
+	Email        string `json:"email,omitempty"`
+	Mobile       string `json:"mobile,omitempty"`
+	Realname     string `json:"realname,omitempty"`
+	Avatar       string `json:"avatar,omitempty"`
+	Password     string `json:"password"`
+	UserRole     uint8  `json:"user_role,omitempty"`
+	Openid       string `json:"openid,omitempty"`
+	Unionid      uint8  `json:"unionid,omitempty"`
+	RoomId       string `json:"room_id,omitempty"`
+	RoomRole     uint8  `json:"room_role,omitempty"`
+	RoomPassword string `json:"room_password,omitempty"`
 }
 
 /**
