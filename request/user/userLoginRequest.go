@@ -2,6 +2,7 @@ package user
 
 import (
 	"encoding/json"
+	"github.com/eDoctor/talkmed-meeting-open-sdk-golang"
 	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/request"
 	constants "github.com/eDoctor/talkmed-meeting-open-sdk-golang/tools/constant"
 )
