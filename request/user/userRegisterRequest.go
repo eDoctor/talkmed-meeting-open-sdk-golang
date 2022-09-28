@@ -2,7 +2,6 @@ package user
 
 import (
 	"encoding/json"
-	"github.com/eDoctor/talkmed-meeting-open-sdk-golang"
 	"github.com/eDoctor/talkmed-meeting-open-sdk-golang/request"
 	constants "github.com/eDoctor/talkmed-meeting-open-sdk-golang/tools/constant"
 )
@@ -23,7 +22,7 @@ type RegisterRequest struct {
 	Password     string `json:"password,omitempty"`
 	UserRole     uint8  `json:"user_role,omitempty"`
 	Openid       string `json:"openid,omitempty"`
-	Unionid      uint8  `json:"unionid,omitempty"`
+	Unionid      string `json:"unionid,omitempty"`
 	RoomId       string `json:"room_id,omitempty"`
 	RoomRole     uint8  `json:"room_role,omitempty"`
 	RoomPassword string `json:"room_password,omitempty"`
