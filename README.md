@@ -71,6 +71,9 @@ SetApiVersion //该方法可设置请求的接口版本 默认v1
 调研问题相关: survey_question
 菜单相关: survey_question
 会后数据报表接口: data
+会议讲者相关接口：live_speaker
+会议白名单相关接口：live_white
+会议表单相关接口： live_form
 ```
 
 说明

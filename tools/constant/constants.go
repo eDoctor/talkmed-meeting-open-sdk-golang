@@ -14,6 +14,15 @@ const ApiV2 = "v2"
 const UserRegisterRequestUri = "open/register" //用户
 const UserLoginRequestUri = "open/login"
 
+// UserUpdateRequestUri 用户更新
+const UserUpdateRequestUri = "open/user/%d"
+
+// UserDeleteRequestUri 用户删除
+const UserDeleteRequestUri = "open/user/%d"
+
+// UserAuthRequestUri 获取用户登录凭据
+const UserAuthRequestUri = "open/auth_token"
+
 /**
  * @Description: 会议相关
  */
@@ -100,3 +109,30 @@ const DataUserLiveRequestUri = "open/room/%d/user_live"                         
 const DataUserLiveAllLogsRequestUri = "open/room/%d/user_live_all_logs"                           //用户直播观看总时长统计
 const DataUserLiveLogsByRtcTimeRequestUri = "open/room/%d/user_live_logs_by_rtc_time"             //根据讲者上下线时间做用户观看时长统计
 const DataUserLiveUniqueLogsByRtcTimeRequestUri = "open/room/%d/user_live_uniquelogs_by_rtc_time" //根据讲者上下线时间做用户观看时长统计并合并用户终端
+
+// LiveSpeakerCreateRequestUri 添加会议讲者
+const LiveSpeakerCreateRequestUri = "open/room/%d/speaker"
+
+// LiveSpeakerUpdateRequestUri 修改会议讲者
+const LiveSpeakerUpdateRequestUri = "open/room/%d/speaker/%d"
+
+// LiveSpeakerListRequestUri 会议讲者列表
+const LiveSpeakerListRequestUri = "open/room/%d/speaker"
+
+// LiveSpeakerDeleteRequestUri 删除会议讲者
+const LiveSpeakerDeleteRequestUri = "open/room/%d/speaker/%d"
+
+// LiveSpeakerDetailRequestUri 会议讲者详情
+const LiveSpeakerDetailRequestUri = "open/room/%d/speaker/%d"
+
+// LiveWhiteCreateRequestUri 会议白名单添加
+const LiveWhiteCreateRequestUri = "open/room/%d/white_list"
+
+// LiveWhiteDeleteRequestUri 会议白名单删除
+const LiveWhiteDeleteRequestUri = "open/room/%d/white_list"
+
+// LiveWhiteListRequestUri 会议白名单列表
+const LiveWhiteListRequestUri = "open/room/%d/white_list"
+
+// LiveBindFormRequestUri 会议绑定表单
+const LiveBindFormRequestUri = "open/form_module"
